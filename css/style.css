@@ -544,17 +544,30 @@ h6 {
   visibility: hidden;
 }
 
-.logo :nth-child(2) {
-  display: none;
-}
-.logo :nth-child(1) {
+.menu__logo .logo__black {
   display: inline-block;
 }
-.white-theme .logo :nth-child(2) {
+.menu__logo .logo__white {
+  display: none;
+}
+.white-theme .menu__logo .logo__white {
   display: inline-block;
 }
-.white-theme .logo :nth-child(1) {
+.white-theme .menu__logo .logo__black {
   display: none;
+}
+
+.header__logo .logo__black {
+  display: none;
+}
+.header__logo .logo__white {
+  display: inline-block;
+}
+.white-theme .header__logo .logo__white {
+  display: none;
+}
+.white-theme .header__logo .logo__black {
+  display: inline-block;
 }
 
 .page {
