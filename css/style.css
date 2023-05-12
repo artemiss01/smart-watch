@@ -547,6 +547,9 @@ h6 {
 .logo :nth-child(2) {
   display: none;
 }
+.logo :nth-child(1) {
+  display: inline-block;
+}
 .white-theme .logo :nth-child(2) {
   display: inline-block;
 }
